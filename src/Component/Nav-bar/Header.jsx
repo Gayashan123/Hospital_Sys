@@ -3,6 +3,7 @@ import Navigation from './Navigation';  // Import Navigation here
 import Appoinment from '../Appoinment/Appoinment';
 import { useState } from 'react';
 import Services from '../Services/Services';
+import ximage from "../../assets/Consultation.jpg"
 
 function Header() {
 
@@ -33,7 +34,7 @@ function Header() {
   return (
     <div
       className="relative flex items-center justify-center w-full min-h-screen mb-4 overflow-hidden bg-center bg-cover 100vh"
-      style={{ backgroundImage: "url('/x.jpg')" } }
+      style={{ backgroundImage: `url(${ximage})` } }
       id="header"
     >
       {/* Gradient Overlay */}
